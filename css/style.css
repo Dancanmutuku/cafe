@@ -2394,6 +2394,18 @@ fieldset:disabled a.btn {
   border-color: #F195B2;
 }
 
+.owl-carousel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.product-item {
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
